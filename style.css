@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+main {
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+#column {
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+  width: 100%;
+  height: 100%;
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em;
+  width: 100%;
+  height: 100%;
+}
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2em;
+  width: 100%;
+  height: 100%;
+}
+img {
+  opacity: 50%;
+}
+h3 {
+  color: hsl(0, 0%, 95%);
+  font-size: 40px;
+  font-weight: 700;
+  font-family: big shoulders display, sans-serif;
+  padding: 10px;
+  margin-bottom: 10px, 10px;
+}
+.pdivs {
+  padding: 5px;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: lexend deca, sans-serif;
+  padding: 10px;
+}
+
+.buttons {
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 15px 32px;
+  border: 2px;
+  border-color: hsl(0, 0%, 95%);
+  margin: 20px 15px;
+}
+.buttons {
+  transition-duration: 0.4s;
+}
+.buttons:hover {
+  color: rgba(255, 255, 255, 0);
+  border: 2px;
+  border-color: hsl(0, 0%, 95%);
+}
